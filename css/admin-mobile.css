@@ -1,0 +1,21 @@
+html {
+    font-size: 2vw;
+}
+
+button {
+    font-size: 2rem;
+}
+
+.control{
+    margin: 23px 0;
+    flex-direction: column;
+}
+
+table button {
+    font-size: 1rem;
+}
+
+.logout,
+.user-card button{
+    width: 12.5rem;
+}

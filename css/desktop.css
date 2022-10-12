@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(
+      to right,
+      #a9d0f9 0%,
+      #a9d0f9 50%,
+      white 50%,
+      white 100%
+    );
+}
+.sign-in,
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(
+      to right,
+      #a9d0f9 0%,
+      #a9d0f9 50%,
+      white 50%,
+      white 100%
+    );
+}
+
+form{
+    flex-basis: 45%;
+}
+

@@ -1,0 +1,95 @@
+@import url(./mobile.css);
+@import url(./tablet.css) screen and (min-width: 468px);
+@import url(./desktop.css) screen and (min-width: 1024px);
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@250&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+
+html {
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Assistant', sans-serif;
+}
+
+button{
+    cursor: pointer;
+    transition: opacity 200ms;
+}
+
+button:hover{
+    opacity: 0.75;
+}
+
+.sign-in,
+.sign-up {
+    position: absolute;
+    box-shadow: 0 0 15px 0 rgb(93, 93, 93);
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+::placeholder{
+    color: rgb(205, 205, 205);
+    padding-left: 5%;
+}
+
+button {
+    border: none;
+    background-color: #a9d0f9;
+    width: 100%;
+}
+
+body.logged-in{
+    background:none;
+    background-color: white;
+}
+
+.user-card,
+.user-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.user-card{
+    margin-top: 100px;
+}
+
+.user-card img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: opacity 200ms;
+    margin: 0 10px;
+}
+
+.user-card img:hover{
+    opacity: 0;
+}
+
+.user-info{
+    width: 200px;
+    height: 200px;
+    font-size: 0.8rem;
+    position: relative;
+    transform: translateY(-100%);
+    background-color: white;
+    z-index: -1;
+}
+
+.user-card button{
+    position: relative;
+    top: -170px;
+}

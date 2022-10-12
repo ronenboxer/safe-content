@@ -1,0 +1,35 @@
+body {
+    background-color: #a9d0f9;
+}
+
+.sign-in,
+.sign-up {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    padding: 2rem;
+    background-color: white;
+    line-height: 150%;
+}
+
+.header{
+    /* font-weight: bolder; */
+    font-size: 1.3rem;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+input {
+    width: 200px;
+    height: 0.9rem;
+}
+
+button {
+    font-size: 0.6rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    font-weight: normal;
+}

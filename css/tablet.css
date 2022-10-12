@@ -1,0 +1,12 @@
+.sign-in,
+.sign-up {
+    font-size: 0.8rem;
+    padding: 2rem;
+    width: 43.59vw;
+    background-color: white;
+    line-height: 150%;
+}
+
+input {
+    width: 100%;
+}

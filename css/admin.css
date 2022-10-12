@@ -1,0 +1,116 @@
+@import url(./admin-mobile.css);
+@import url(./admin-tablet.css) screen and (min-width: 468px);
+@import url(./admin-desktop.css) screen and (min-width: 801px);
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@250&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+
+body{
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.on{
+    background-color: #a9d0f9;
+}
+
+.control{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: #a9d0f9;
+    margin: 5px;
+}
+
+button.users-display{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid black;
+    padding: 5px;
+    transition: opacity 200ms;
+}
+
+button:hover{
+    opacity: 0.75;
+}
+.user-card {
+    font-size: 2rem;
+    width: 200px;
+    margin: 0;
+}
+.user-card button{
+    position: relative;
+    top: -170px;
+    padding: 0.5em;
+}
+
+.cards-container,
+.user-card,
+.user-info{
+    width: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.user-card,
+.user-info{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+.cards-container{
+    width: 80vw;
+}
+
+.user-card img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: opacity 200ms;
+    margin: 0 10px;
+}
+
+.user-card img:hover{
+    opacity: 0;
+}
+.user-info{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform: translateY(-100%);
+    background-color: white;
+    z-index: -1;
+}
+
+.logout{
+    /* font-size: 1.5rem; */
+    padding: 14.17px;
+}
+
+table{
+    border-spacing: 0;
+    margin: auto;
+    width: 80vw;
+    border: 1px black solid;
+}
+
+thead{
+    background-color: #a9d0f9;
+}
+
+td, th{
+    font-size: 1.3rem;
+    height: 3rem;
+}
+
+.user-card .user-info{
+    font-size: 1rem;
+}
